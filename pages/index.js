@@ -62,7 +62,7 @@ export default () => (
     <h1 className={classNames.h1}>
       <a
         {...styles.ats}
-        className={t('no-underline near-black')}
+        className={t(`no-underline ${darkModeEnabled ? 'white' : 'near-black'}`)}
         href='/'
       >
         {'melkat.dev'}
