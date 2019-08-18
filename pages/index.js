@@ -68,7 +68,6 @@ export default () => (
         {'melkat'}
       </a>
     </h1>
-    <div className={classNames.articleList}>
-    </div>
+    <div className={classNames.articleList} />
   </main>
 )
