@@ -3,16 +3,25 @@ import Head from 'next/head'
 import { insertRule, css, style, rehydrate } from 'glamor'
 import { tachyons, reset, wrap } from 'glamor-tachyons'
 
+let darkModeEnabled = true
 if (typeof window !== 'undefined') {
   rehydrate(window.__NEXT_DATA__.ids)
+  darkModeEnabled = window.matchMedia('(prefers-color-scheme: dark)').matches
 }
 reset({ insertRule })
 const t = (classNames) => css(tachyons(classNames))
+const white = '#fff'
+const black = '#000'
+const nearBlack = '#111'
+css.global('body, a', {
+  color: darkModeEnabled ? white : nearBlack,
+  backgroundColor: darkModeEnabled ? black : white
+})
 
 const styles = {
   ats: style({
     '&::after': {
-      content: 'ats',
+      content: 'dev',
       color: '#AAA'
     }
   }),
