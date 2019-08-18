@@ -70,6 +70,5 @@ export default () => (
     </h1>
     <div className={classNames.articleList}>
     </div>
-    </div>
   </main>
 )
