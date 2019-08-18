@@ -5,11 +5,11 @@
   "main": "index.js",
   "scripts": {
     "dev": "next",
-    "copyLegacy": "cp -r legacy/* out/",
-    "build": "next build && next export && npm run copyLegacy",
+    "build": "next build && next export",
     "start": "next start",
     "lint": "standard",
-    "test": "jest"
+    "test": "jest",
+    "deploy": "npm run build && aws s3 sync out/ s3://melkat.dev"
   },
   "author": "Melanie Bilbrey",
   "license": "ISC",
@@ -17,10 +17,10 @@
     "dom": "0.0.3",
     "glamor": "^2.20.40",
     "glamor-tachyons": "^1.0.0-alpha.1",
-    "jest": "^22.1.4",
+    "jest": "^22.4.4",
     "next": "^4.2.3",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
     "standard": "^10.0.3"
   }
 }
