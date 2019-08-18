@@ -19,9 +19,9 @@ css.global('body, a', {
 })
 
 const styles = {
-  ats: style({
+  dotDev: style({
     '&::after': {
-      content: 'dev',
+      content: '.dev',
       color: '#AAA'
     }
   }),
@@ -61,11 +61,11 @@ export default () => (
     </Head>
     <h1 className={classNames.h1}>
       <a
-        {...styles.ats}
-        className={t(`no-underline ${darkModeEnabled ? 'white' : 'near-black'}`)}
+        {...styles.dotDev}
+        className={t('no-underline')}
         href='/'
       >
-        {'melkat.dev'}
+        {'melkat'}
       </a>
     </h1>
     <div className={classNames.articleList}>
