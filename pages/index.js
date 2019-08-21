@@ -32,7 +32,7 @@ const styles = {
   pweach: style({ color: '#FF5757' }),
   purp: style({ color: '#B24DFF' }),
   weal: style({ color: '#29A0A8' }),
-  wed: style({ color: '#FF2929' })
+  wed: style({ color: '#FF2929' }),
   flexGrow: style({ webkitBoxFlex: 1, msFlexPositive: 1, flexGrow: 1 })
 }
 
