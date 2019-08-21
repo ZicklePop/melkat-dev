@@ -22,11 +22,17 @@ const styles = {
   dotDev: style({
     '&::after': {
       content: '.dev',
-      color: '#AAA'
+      color: '#949494'
     }
   }),
-  green: style({ color: '#69b200' }),
-  blue: style({ color: '#00aeff' }),
+  gween: style({ color: '#65A300' }),
+  woyal: style({ color: '#005C9E' }),
+  mel: style({ color: '#0096DB' }),
+  pwink: style({ color: '#FF52A3' }),
+  pweach: style({ color: '#FF5757' }),
+  purp: style({ color: '#B24DFF' }),
+  weal: style({ color: '#29A0A8' }),
+  wed: style({ color: '#FF2929' })
   flexGrow: style({ webkitBoxFlex: 1, msFlexPositive: 1, flexGrow: 1 })
 }
 
