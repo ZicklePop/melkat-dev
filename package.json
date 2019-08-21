@@ -9,7 +9,8 @@
     "start": "next start",
     "lint": "standard",
     "test": "jest",
-    "deploy": "npm run build && aws s3 sync out/ s3://melkat.dev"
+    "deploy": "npm run build && aws s3 sync out/ s3://melkat.dev && npm run clear-cache",
+    "clear-cache": "aws cloudfront create-invalidation --distribution-id=E35DQEVHZRTW4L --paths /"
   },
   "author": "Melanie Bilbrey",
   "license": "ISC",
