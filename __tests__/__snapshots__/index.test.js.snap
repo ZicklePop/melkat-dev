@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`page - index should render 1`] = `
+<main
+  className="jsx-4201710700 measure-wide center sans-serif f3 fw2 "
+>
+  <h1
+    className="jsx-4201710700 lh-title fw2 f2 pv3"
+  >
+    <a
+      className="jsx-4201710700 no-underline"
+      href="/"
+    >
+      melkat
+    </a>
+  </h1>
+  <p>
+    under construction
+  </p>
+</main>
+`;
