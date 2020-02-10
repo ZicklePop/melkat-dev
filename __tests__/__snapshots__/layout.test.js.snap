@@ -14,6 +14,23 @@ exports[`component - layout should render 1`] = `
       melkat
     </a>
   </h1>
+  <footer
+    className="jsx-4201710700 lh-copy tc f6"
+  >
+    <p
+      className="jsx-4201710700"
+    >
+      code by 
+      <a
+        className="jsx-4201710700"
+        href="https://melaniekat.com"
+        rel="me"
+      >
+        melanie kat
+      </a>
+       &lt;3
+    </p>
+  </footer>
 </main>
 `;
 
@@ -34,5 +51,22 @@ exports[`component - layout should render with props 1`] = `
   <b>
     #content
   </b>
+  <footer
+    className="jsx-4201710700 lh-copy tc f6"
+  >
+    <p
+      className="jsx-4201710700"
+    >
+      code by 
+      <a
+        className="jsx-4201710700"
+        href="https://melaniekat.com"
+        rel="me"
+      >
+        melanie kat
+      </a>
+       &lt;3
+    </p>
+  </footer>
 </main>
 `;
