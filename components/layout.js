@@ -5,7 +5,8 @@ import PropTypes from 'prop-types'
 const cx = {
   main: 'measure-wide center sans-serif f3 fw2',
   h1: 'lh-title fw2 f2 pv3',
-  h1a: 'no-underline'
+  h1a: 'no-underline',
+  footer: 'lh-copy tc f6'
 }
 
 const Layout = ({ title, description, children, className }) => {
@@ -52,6 +53,15 @@ const Layout = ({ title, description, children, className }) => {
         </a>
       </h1>
       {children}
+      <footer className={cx.footer}>
+        <p>
+          {'code by '}
+          <a href='https://melaniekat.com' rel='me'>
+            {'melanie kat'}
+          </a>
+          {' <3'}
+        </p>
+      </footer>
     </main>
   )
 }
