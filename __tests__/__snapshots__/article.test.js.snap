@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`component - article should render with props 1`] = `
+<article
+  className="cf w-100 pv5"
+>
+  <header
+    className="fn fl-ns w-50-ns pr4-ns"
+  >
+    <h2
+      className="mb3 mt0 lh-title fw5"
+    >
+      <a
+        href="https://routinehub.co/shortcut/2663"
+      >
+        Now Playing
+      </a>
+    </h2>
+    <span
+      className="f6 ttu tracked"
+    >
+      shortcuts.app, apple music, html, js
+    </span>
+  </header>
+  <div
+    className="fn fl-ns w-50-ns"
+  >
+    <p>
+      Generates an image of the now playing song for sharing on Snapchat, Instagram, Facebook, or whatever’s Story feature.
+    </p>
+  </div>
+</article>
+`;
