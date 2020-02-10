@@ -14,8 +14,180 @@ exports[`page - index should render 1`] = `
       melkat
     </a>
   </h1>
-  <p>
-    under construction
-  </p>
+  <article
+    className="cf w-100 pv5"
+  >
+    <header
+      className="fn fl-ns w-50-ns pr4-ns"
+    >
+      <h2
+        className="mb3 mt0 lh-title fw5"
+      >
+        <a
+          href="https://routinehub.co/shortcut/2663"
+        >
+          Now Playing
+        </a>
+      </h2>
+      <span
+        className="f6 ttu tracked"
+      >
+        shortcuts.app, apple music, html, js
+      </span>
+    </header>
+    <div
+      className="fn fl-ns w-50-ns"
+    >
+      <p
+        className="lh-copy w-100 mt4 mt0-ns"
+      >
+        Generates an image of the now playing song for sharing on Snapchat, Instagram, Facebook, or whatever’s Story feature.
+      </p>
+    </div>
+  </article>
+  <article
+    className="cf w-100 pv5"
+  >
+    <header
+      className="fn fl-ns w-50-ns pr4-ns"
+    >
+      <h2
+        className="mb3 mt0 lh-title fw5"
+      >
+        <a
+          href="https://routinehub.co/shortcut/2664"
+        >
+          Pride Frames
+        </a>
+      </h2>
+      <span
+        className="f6 ttu tracked"
+      >
+        shortcuts.app, html, js
+      </span>
+    </header>
+    <div
+      className="fn fl-ns w-50-ns"
+    >
+      <p
+        className="lh-copy w-100 mt4 mt0-ns"
+      >
+        Takes an image and a pride flag and makes a circular profile picture for you. Supporting the flags for: trans, LGBT (new with black and brown inclusion), lesbian (orange-ish less controversial version), bisexual, agender, aromantic, asexual, genderfluid, genderqueer, non-binary, and pansexual.
+      </p>
+    </div>
+  </article>
+  <article
+    className="cf w-100 pv5"
+  >
+    <header
+      className="fn fl-ns w-50-ns pr4-ns"
+    >
+      <h2
+        className="mb3 mt0 lh-title fw5"
+      >
+        <a
+          href="https://routinehub.co/shortcut/4366"
+        >
+          Twitter Bulk Block
+        </a>
+      </h2>
+      <span
+        className="f6 ttu tracked"
+      >
+        shortcuts.app, scriptable.app, js
+      </span>
+    </header>
+    <div
+      className="fn fl-ns w-50-ns"
+    >
+      <p
+        className="lh-copy w-100 mt4 mt0-ns"
+      >
+        <a
+          href="https://github.com/williamsmj/twitterjam"
+        >
+          Inspired by TwitterJam.
+        </a>
+         
+        Pass in a list of twitter handles to block. I would suggest
+         
+        <a
+          href="https://twitter.com/settings/your_twitter_data/audiences"
+        >
+          the PDF of advertisers targeting your Twitter account
+        </a>
+        , for example.
+      </p>
+    </div>
+  </article>
+  <article
+    className="cf w-100 pv5"
+  >
+    <header
+      className="fn fl-ns w-50-ns pr4-ns"
+    >
+      <h2
+        className="mb3 mt0 lh-title fw5"
+      >
+        <a
+          href="https://gist.github.com/ZicklePop/603b19dd3b9e09f99030bc24e616ca6c"
+        >
+          unpkg.js
+        </a>
+      </h2>
+      <span
+        className="f6 ttu tracked"
+      >
+        scriptable.app, js
+      </span>
+    </header>
+    <div
+      className="fn fl-ns w-50-ns"
+    >
+      <p
+        className="lh-copy w-100 mt4 mt0-ns"
+      >
+        Unpkg importer for
+         
+        <a
+          href="https://scriptable.app"
+        >
+          scriptable.app
+        </a>
+        , downloads modules to \`iCloud Drive/Scriptable/modules\`. Used like \`const _ = await unpkg('lodash')\`
+      </p>
+    </div>
+  </article>
+  <article
+    className="cf w-100 pv5"
+  >
+    <header
+      className="fn fl-ns w-50-ns pr4-ns"
+    >
+      <h2
+        className="mb3 mt0 lh-title fw5"
+      >
+        <a
+          href="https://github.com/ZicklePop/throw-a-milkshake-for-twitter"
+        >
+          Throw a Milkshake
+        </a>
+      </h2>
+      <span
+        className="f6 ttu tracked"
+      >
+        browser extension, js
+      </span>
+    </header>
+    <div
+      className="fn fl-ns w-50-ns"
+    >
+      <p
+        className="lh-copy w-100 mt4 mt0-ns"
+      >
+        A keyboard command to easily report hate speech targeted towards individuals or a group of people on Twitter.
+      </p>
+    </div>
+  </article>
 </main>
 `;
