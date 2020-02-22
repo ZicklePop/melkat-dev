@@ -2,13 +2,13 @@
 
 exports[`component - layout should render 1`] = `
 <main
-  className="jsx-4201710700 measure-wide center sans-serif f3 fw2 "
+  className="jsx-2261047582 measure-wide center sans-serif f3 fw2 "
 >
   <h1
-    className="jsx-4201710700 lh-title fw2 f2 pv3"
+    className="jsx-2261047582 lh-title fw2 f2 pv3"
   >
     <a
-      className="jsx-4201710700 no-underline"
+      className="jsx-2261047582 no-underline"
       href="/"
     >
       melkat
@@ -19,13 +19,13 @@ exports[`component - layout should render 1`] = `
 
 exports[`component - layout should render with props 1`] = `
 <main
-  className="jsx-4201710700 measure-wide center sans-serif f3 fw2 "
+  className="jsx-2261047582 measure-wide center sans-serif f3 fw2 "
 >
   <h1
-    className="jsx-4201710700 lh-title fw2 f2 pv3"
+    className="jsx-2261047582 lh-title fw2 f2 pv3"
   >
     <a
-      className="jsx-4201710700 no-underline"
+      className="jsx-2261047582 no-underline"
       href="/"
     >
       melkat
