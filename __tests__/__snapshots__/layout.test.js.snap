@@ -15,14 +15,14 @@ exports[`component - layout should render 1`] = `
     </a>
   </h1>
   <footer
-    className="jsx-4201710700 lh-copy tc f6"
+    className="jsx-2261047582 lh-copy tc f6"
   >
     <p
-      className="jsx-4201710700"
+      className="jsx-2261047582"
     >
       code by 
       <a
-        className="jsx-4201710700"
+        className="jsx-2261047582"
         href="https://melaniekat.com"
         rel="me"
       >
@@ -52,14 +52,14 @@ exports[`component - layout should render with props 1`] = `
     #content
   </b>
   <footer
-    className="jsx-4201710700 lh-copy tc f6"
+    className="jsx-2261047582 lh-copy tc f6"
   >
     <p
-      className="jsx-4201710700"
+      className="jsx-2261047582"
     >
       code by 
       <a
-        className="jsx-4201710700"
+        className="jsx-2261047582"
         href="https://melaniekat.com"
         rel="me"
       >
