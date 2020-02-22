@@ -189,5 +189,22 @@ exports[`page - index should render 1`] = `
       </p>
     </div>
   </article>
+  <footer
+    className="jsx-4201710700 lh-copy tc f6"
+  >
+    <p
+      className="jsx-4201710700"
+    >
+      code by 
+      <a
+        className="jsx-4201710700"
+        href="https://melaniekat.com"
+        rel="me"
+      >
+        melanie kat
+      </a>
+       &lt;3
+    </p>
+  </footer>
 </main>
 `;
