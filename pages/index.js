@@ -10,6 +10,42 @@ const cx = {
 const Index = () => (
   <Layout className={cx.main}>
     <Article
+      title='myhotpics'
+      details='nextjs, react, gif, library, api'
+      url='https://github.com/ZicklePop/myhotpics'
+    >
+      <p className={cx.p}>
+        {'A gif library with an API and search. This connects to an Amazon S3 bucket so it automatically updates with the latest gifs. You can try it out at'} <a href='https://myhot.pics'>myhot.pics</a>
+      </p>
+    </Article>
+    <Article
+      title='melkat.link'
+      details='nextjs, react, blog, bookmarks'
+      url='https://github.com/ZicklePop/melkat-link'
+    >
+      <p className={cx.p}>
+        {'A simple link blog powered by a Raindrop.io collection of links. This is what I use to power my website'} <a href='https://melkat.link'>melkat.link</a>
+      </p>
+    </Article>
+    <Article
+      title='Pitch'
+      details='nextjs, react, web audio, lgbtqia+'
+      url='https://github.com/ZicklePop/pitch'
+    >
+      <p className={cx.p}>
+        {'This is an expiremental pitch tracker for people who want to feminize their voice. The goal behind this was to make something that would run in the most browsers, like Safari. You can try it out at'} <a href='https://pitch.melkat.dev'>pitch.melkat.dev</a>
+      </p>
+    </Article>
+    <Article
+      title='Dash Pi'
+      details='raspberry pi, nextjs, react'
+      url='https://github.com/ZicklePop/dash-pi'
+    >
+      <p className={cx.p}>
+        {'A small gif clock with the weather, designed to fit on a 7 inch Raspberry Pi screen as a desk clock.'}
+      </p>
+    </Article>
+    <Article
       title='Now Playing'
       details='shortcuts.app, apple music, html, js'
       url='https://routinehub.co/shortcut/2663'

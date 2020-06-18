@@ -24,6 +24,148 @@ exports[`page - index should render 1`] = `
         className="mb3 mt0 lh-title fw5"
       >
         <a
+          href="https://github.com/ZicklePop/myhotpics"
+        >
+          myhotpics
+        </a>
+      </h2>
+      <span
+        className="f6 ttu tracked"
+      >
+        nextjs, react, gif, library, api
+      </span>
+    </header>
+    <div
+      className="fn fl-ns w-50-ns"
+    >
+      <p
+        className="lh-copy w-100 mt4 mt0-ns"
+      >
+        A gif library with an API and search. This connects to an Amazon S3 bucket so it automatically updates with the latest gifs. You can try it out at
+         
+        <a
+          href="https://myhot.pics"
+        >
+          myhot.pics
+        </a>
+      </p>
+    </div>
+  </article>
+  <article
+    className="cf w-100 pv5"
+  >
+    <header
+      className="fn fl-ns w-50-ns pr4-ns"
+    >
+      <h2
+        className="mb3 mt0 lh-title fw5"
+      >
+        <a
+          href="https://github.com/ZicklePop/melkat-link"
+        >
+          melkat.link
+        </a>
+      </h2>
+      <span
+        className="f6 ttu tracked"
+      >
+        nextjs, react, blog, bookmarks
+      </span>
+    </header>
+    <div
+      className="fn fl-ns w-50-ns"
+    >
+      <p
+        className="lh-copy w-100 mt4 mt0-ns"
+      >
+        A simple link blog powered by a Raindrop.io collection of links. This is what I use to power my website
+         
+        <a
+          href="https://melkat.link"
+        >
+          melkat.link
+        </a>
+      </p>
+    </div>
+  </article>
+  <article
+    className="cf w-100 pv5"
+  >
+    <header
+      className="fn fl-ns w-50-ns pr4-ns"
+    >
+      <h2
+        className="mb3 mt0 lh-title fw5"
+      >
+        <a
+          href="https://github.com/ZicklePop/pitch"
+        >
+          Pitch
+        </a>
+      </h2>
+      <span
+        className="f6 ttu tracked"
+      >
+        nextjs, react, web audio, lgbtqia+
+      </span>
+    </header>
+    <div
+      className="fn fl-ns w-50-ns"
+    >
+      <p
+        className="lh-copy w-100 mt4 mt0-ns"
+      >
+        This is an expiremental pitch tracker for people who want to feminize their voice. The goal behind this was to make something that would run in the most browsers, like Safari. You can try it out at
+         
+        <a
+          href="https://pitch.melkat.dev"
+        >
+          pitch.melkat.dev
+        </a>
+      </p>
+    </div>
+  </article>
+  <article
+    className="cf w-100 pv5"
+  >
+    <header
+      className="fn fl-ns w-50-ns pr4-ns"
+    >
+      <h2
+        className="mb3 mt0 lh-title fw5"
+      >
+        <a
+          href="https://github.com/ZicklePop/dash-pi"
+        >
+          Dash Pi
+        </a>
+      </h2>
+      <span
+        className="f6 ttu tracked"
+      >
+        raspberry pi, nextjs, react
+      </span>
+    </header>
+    <div
+      className="fn fl-ns w-50-ns"
+    >
+      <p
+        className="lh-copy w-100 mt4 mt0-ns"
+      >
+        A small gif clock with the weather, designed to fit on a 7 inch Raspberry Pi screen as a desk clock.
+      </p>
+    </div>
+  </article>
+  <article
+    className="cf w-100 pv5"
+  >
+    <header
+      className="fn fl-ns w-50-ns pr4-ns"
+    >
+      <h2
+        className="mb3 mt0 lh-title fw5"
+      >
+        <a
           href="https://routinehub.co/shortcut/2663"
         >
           Now Playing
