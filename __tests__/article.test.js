@@ -10,7 +10,7 @@ describe('component - article', () => {
         url='https://routinehub.co/shortcut/2663'
       >
         <p>
-          {'Generates an image of the now playing song for sharing on Snapchat, Instagram, Facebook, or whatever’s Story feature.'}
+          Generates an image of the now playing song for sharing on Snapchat, Instagram, Facebook, or whatever’s Story feature.
         </p>
       </Article>
     )
