@@ -48,7 +48,7 @@ const Layout = ({ title, description, children, className }) => {
           className={cx.h1a}
           href='/'
         >
-          {'melkat'}
+          melkat
         </a>
       </h1>
       {children}
@@ -56,7 +56,7 @@ const Layout = ({ title, description, children, className }) => {
         <p>
           {'code by '}
           <a href='https://melaniekat.com' rel='me'>
-            {'melanie kat'}
+            melanie kat
           </a>
           {' <3'}
         </p>
